@@ -4,6 +4,7 @@ import App from "./App.jsx";
 import { ChakraProvider } from "@chakra-ui/react";
 import { BrowserRouter } from "react-router-dom";
 
+// The equivalent of the index.html in React 
 createRoot(document.getElementById("root")).render(
   <StrictMode>
     <BrowserRouter>
